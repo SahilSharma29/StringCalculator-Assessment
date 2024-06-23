@@ -1,3 +1,6 @@
 export default function add(numbers: string): number {
-  return 0;
+  if (numbers === '') {
+    return 0;
+  }
+  return NaN;
 }
